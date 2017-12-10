@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sort-object-keys",
+        "command": "sort-object-keys:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sort-object-keys",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sort-object-keys:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
